@@ -9,7 +9,7 @@ section {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, #3f51b5, #00bcd4);
+    background: linear-gradient(90deg, orange, green);
     animation: animate 20s linear infinite;
 }
 
@@ -41,7 +41,7 @@ section:after {
     bottom: 0;
     right: 0;
     /* border-bottom: 100vh solid transparent; */
-    border-top: 100vh solid transparent;
+    border-bottom: 100vh solid transparent;
     border-right: 100vh solid #fff;
     opacity: 0.1;
 }
